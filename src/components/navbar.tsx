@@ -38,15 +38,20 @@ function NavItem({ children, href }: NavItemProps) {
 
 const NAV_MENU = [
   {
-    name: "Page",
+    name: "Atolia Nedir?",
     icon: RectangleStackIcon,
   },
   {
-    name: "Account",
+    name: "Organizatörler",
     icon: UserCircleIcon,
   },
   {
-    name: "Docs",
+    name: "İletişim",
+    icon: CommandLineIcon,
+    href: "https://www.material-tailwind.com/docs/react/installation",
+  },
+  {
+    name: "Hakkımızda",
     icon: CommandLineIcon,
     href: "https://www.material-tailwind.com/docs/react/installation",
   },
@@ -92,7 +97,7 @@ export function Navbar() {
           color={isScrolling ? "blue-gray" : "white"}
           className="text-lg font-bold"
         >
-          Material Tailwind
+          Atolia
         </Typography>
         <ul
           className={`ml-10 hidden items-center gap-6 lg:flex ${
@@ -106,14 +111,6 @@ export function Navbar() {
             </NavItem>
           ))}
         </ul>
-        <div className="hidden items-center gap-4 lg:flex">
-          <Button color={isScrolling ? "gray" : "white"} variant="text">
-            Log in
-          </Button>
-          <a href="https://www.material-tailwind.com/blocks" target="_blank">
-            <Button color={isScrolling ? "gray" : "white"}>blocks</Button>
-          </a>
-        </div>
         <IconButton
           variant="text"
           color={isScrolling ? "gray" : "white"}
@@ -137,12 +134,6 @@ export function Navbar() {
               </NavItem>
             ))}
           </ul>
-          <div className="mt-6 flex items-center gap-4">
-            <Button variant="text">Log in</Button>
-            <a href="https://www.materila-tailwind.com/blocks" target="_blank">
-              <Button color="gray">blocks</Button>
-            </a>
-          </div>
         </div>
       </Collapse>
     </MTNavbar>
