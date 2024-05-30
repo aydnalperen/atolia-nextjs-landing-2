@@ -104,12 +104,12 @@ export function Navbar() {
             isScrolling ? "text-gray-900" : "text-white"
           }`}
         >
-          {NAV_MENU.map(({ name, icon: Icon, href }) => (
+          {/* {NAV_MENU.map(({ name, icon: Icon, href }) => (
             <NavItem key={name} href={href}>
               <Icon className="h-5 w-5" />
               <span>{name}</span>
             </NavItem>
-          ))}
+          ))} */}
         </ul>
         <IconButton
           variant="text"
