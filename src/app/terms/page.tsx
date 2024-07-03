@@ -41,7 +41,7 @@ const TermsPage = () => {
         </p>
         <h2 className="text-2xl font-semibold mt-6 mb-4">İletişim</h2>
         <p className="mb-4">
-          Atolia uygulamasıyla ilgili herhangi bir sorunuz veya sorununuz varsa, lütfen <a href="mailto:info@atolia.com" className="text-blue-500">info@atolia.com</a> adresine e-posta göndererek bizimle iletişime geçin.
+          Atolia uygulamasıyla ilgili herhangi bir sorunuz veya sorununuz varsa, lütfen <a href="mailto:support@atolia.com" className="text-blue-500">info@atolia.com</a> adresine e-posta göndererek bizimle iletişime geçin.
         </p>
         <h2 className="text-2xl font-semibold mt-6 mb-4">Sonuç</h2>
         <p className="mb-4">

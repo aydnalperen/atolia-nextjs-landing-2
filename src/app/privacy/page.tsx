@@ -15,15 +15,15 @@ const PrivacyPolicyPage = () => {
         <h2 className="text-2xl font-semibold mt-6 mb-4">Topladığımız Kişisel Veriler</h2>
         <h3 className="text-xl font-semibold mt-4 mb-2">Doğrudan Kullanıcılar Tarafından Sağlanan Veriler</h3>
         <p className="mb-4">
-          Atolia’yı kullanırken kişisel verilerinizi doğrudan bize veya hizmet sağlayıcılarımıza sağlayabilirsiniz. Verilerin niteliği, kullanıcıların uygulamayla ve özellikleriyle nasıl etkileşimde bulunduğuna bağlıdır:
+          Atolia&#39;yı kullanırken kişisel verilerinizi doğrudan bize veya hizmet sağlayıcılarımıza sağlayabilirsiniz. Verilerin niteliği, kullanıcıların uygulamayla ve özellikleriyle nasıl etkileşimde bulunduğuna bağlıdır:
         </p>
         <ul className="list-disc list-inside mb-4">
-          <li><strong>Fotoğraflar:</strong> Kameranıza veya fotoğraf kitaplığınıza erişim izni verirseniz Atolia’ya yüklediğiniz fotoğrafları uygulama işlevleri için işleriz.</li>
+          <li><strong>Fotoğraflar:</strong> Kameranıza veya fotoğraf kitaplığınıza erişim izni verirseniz Atolia&#39;ya yüklediğiniz fotoğrafları uygulama işlevleri için işleriz.</li>
           <li><strong>Yazışma Verileri:</strong> Sorularınız da dahil olmak üzere bizimle yapacağınız her türlü iletişim, sağladığınız ilgili iletişim bilgilerinin toplanmasını içerecektir.</li>
         </ul>
         <h3 className="text-xl font-semibold mt-4 mb-2">Otomatik Olarak Toplanan Veriler</h3>
         <p className="mb-4">
-          Atolia’yı kullanırken Atolia veya yetkili üçüncü taraflar, gerektiğinde izninize tabi olarak belirli bilgileri otomatik olarak toplar:
+          Atolia&#39;yı kullanırken Atolia veya yetkili üçüncü taraflar, gerektiğinde izninize tabi olarak belirli bilgileri otomatik olarak toplar:
         </p>
         <ul className="list-disc list-inside mb-4">
           <li><strong>Cihaz Bilgileri:</strong> Mobil cihazınızla ilgili IP adresi, benzersiz cihaz tanımlayıcı, işletim sistemi, mobil ağ ve cihaz dili gibi ayrıntıları içerir.</li>
@@ -33,7 +33,7 @@ const PrivacyPolicyPage = () => {
         </ul>
         <h3 className="text-xl font-semibold mt-4 mb-2">Üçüncü Taraflardan Toplanan Veriler</h3>
         <p className="mb-4">
-          Atolia ve üçüncü taraflar da dahil olmak üzere hizmet sağlayıcılarımız, satıcılarımız ve iş ortaklarımız, bilgi toplamak için çerezler ve SDK'lar gibi teknolojileri kullanır:
+          Atolia ve üçüncü taraflar da dahil olmak üzere hizmet sağlayıcılarımız, satıcılarımız ve iş ortaklarımız, bilgi toplamak için çerezler ve SDK&#39;lar gibi teknolojileri kullanır:
         </p>
         <ul className="list-disc list-inside mb-4">
           <li><strong>Analiz Araçları:</strong> Google Firebase ve Google Analytics gibi araçlar, uygulama kullanımının ölçülmesine yardımcı olur. Bunlar özellik etkileşimi, satın alma bilgileri ve Atolia içindeki eylemler hakkında veri toplar.</li>
